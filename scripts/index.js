@@ -32,8 +32,6 @@ class Repository {
 
 const repository = new Repository();
 
-
-
 const createCard = (activity) => {
     const {id, title, description, imgUrl} = activity
     
@@ -104,6 +102,3 @@ const handlerButton = (event) => {
 };
 const buttonSubmit = document.getElementById("buttonSubmit");
 buttonSubmit.addEventListener("click", handlerButton);
-
-
-module.exports = {Activity, Repository};

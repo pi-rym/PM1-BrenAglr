@@ -3,7 +3,7 @@
 //     expect(4 + 2).toBe(6);
 //   });
 // });
- const {Activity, Repository} = require("../scripts/index.js");
+ const {Activity, Repository} = require("../scripts/clases.js");
 
  describe("Pruebas de class Repository", () => {
   let pruebaRepository
