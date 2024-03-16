@@ -104,3 +104,6 @@ const handlerButton = (event) => {
 };
 const buttonSubmit = document.getElementById("buttonSubmit");
 buttonSubmit.addEventListener("click", handlerButton);
+
+
+module.exports = {Activity, Repository};
