@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Proyecto M1</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto M1/BrenAglr</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h3>Proyecto M1</h3>
+    </header>
+    <main>
+      <h1>Brenda Aguilar</h1>
+      <section class="sobre-mi">
+        <div class="yo">
+          <img src="./sources/yo.jpeg" />
+        </div>
+        <div class="cont-mi">
+          <h4>Sobre mi:</h4>
+          <article>
+            <p class="texto-yo">
+              Hola, soy Brenda Aguilar, una persona muy curiosa, a la que le
+              gusta estar constantemente aprendiendo cosas nuevas. Amo los
+              idiomas, dibujar, diseñar y programar. Actualmente me encuentro
+              estudiando Desarrollo Full Stack, ya que luego de tomar un curso
+              de Diseño UX/UI quede con ansias de volver páginas reales mis
+              prototipos.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="mis-tecnologias">
+        <h4>Mis tecnologías favoritas</h4>
+        <section class="mis-tecnologias">
+          <div class="tecnologías">
+            <p>HTML</p>
+            <div class="img-tec">
+              <img src="./sources/html.jpeg" />
+            </div>
+          </div>
+          <div class="tecnologías">
+            <p>CSS</p>
+            <div class="img-tec">
+              <img src="./sources/css.jpeg" />
+            </div>
+          </div>
+          <div class="tecnologías">
+            <p>JavaScript</p>
+            <div class="img-tec">
+              <img src="./sources/javascript.jpeg" />
+            </div>
+          </div>
+          <div class="tecnologías">
+            <p>Figma</p>
+            <div class="img-tec">
+              <img src="./sources/figma.png" />
+            </div>
+          </div>
+        </section>
+      </section>
+      <br>
+      <section id="mis-actividades">
+        <h4>Mis actividades favoritas</h4>
+        <form action="">
+          <label for="title">Actividad:</label>
+          <input type="text" placeholder="Nombre de la actividad" id="title" />
+          <br />
+          <label for="description">Descripción:</label>
+          <textarea
+            name="description"
+            cols="30"
+            rows="5"
+            placeholder="Breve descripción"
+            id="description"
+          ></textarea>
+          <br />
+          <label for="imgUrl">Imagen:</label>
+          <input type="text" placeholder="URL imagen" id="imgUrl" />
+          <br />
+          <button id="buttonSubmit" type="submit">Agregar actividad</button>
+        </form>
+        <br>
+        <div id="cards" class="cards">
+            </div>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
